@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barrier Gate - Muhammad Azzam As Tsabit</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Barrier Gate</h1>
+    <p>Project Detail</p>
+    <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Description</h2>
+      <p>
+        In this project, i developed a java-based application to be installed at the barrier gate of a ports. 
+        This application allow the barrier gate to receive barcodes, check the database, make changes to the 
+        database, take snapshots from CCTV, upload images, and open barrier gates.
+      </p>
+    </section>
+
+    <!-- Galeri Foto Baru -->
+    <section class="section">
+      <h2>Project Gallery</h2>
+      <div class="gallery-container">
+        <div class="gallery-slider">
+          <!-- Contoh placeholder; ganti dengan gambar aktual -->
+          <img src="pic/barrier-gate/image1.jpg" alt="Image 1">
+          <img src="pic/barrier-gate/image2.jpg" alt="Image 2">
+          <img src="pic/barrier-gate/image3.jpg" alt="Image 3">
+          <!-- Tambahkan lebih banyak <img> sesuai gambar di folder -->
+        </div>
+        <button class="gallery-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+        <button class="gallery-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+        <div class="gallery-indicators">
+          <!-- Indikator titik akan dibuat secara dinamis oleh JS -->
+        </div>
+      </div>
+    </section>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <button onclick="window.location.href='index.html'" class="view-btn"><i class="fas fa-home"></i></button>
+    </div>
+  </main>
+
+  <!-- Modal untuk tampilan gambar penuh -->
+  <div id="image-modal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modal-image" alt="Full Image">
+  </div>
+
+  <footer class="contact-footer">
+    <h2>Contact</h2>
+    <p>Email: azzamtsabit@gmail.com | Phone: +62 878 9735 6155 | LinkedIn: linkedin.com/in/muhammad-azzam-astsabit</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

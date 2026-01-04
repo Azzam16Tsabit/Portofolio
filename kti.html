@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific Writing Competition - Muhammad Azzam As Tsabit</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Scientific Writing Competition</h1>
+    <p>Detail</p>
+    <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Description</h2>
+      <p>
+        In this scientific paper competition, I conducted research on additional 
+        dynamos that can be installed on the front wheels of motorbikes with the 
+        target of being an alternative source of electrical energy for charging 
+        smartphones by raising the problem at that time where many online motorcycle 
+        taxi drivers experienced problems with running out of battery, which hampered 
+        their work.
+      </p>
+    </section>
+
+    <!-- Galeri Foto Baru -->
+    <section class="section">
+      <h2>Gallery</h2>
+      <div class="gallery-container">
+        <div class="gallery-slider">
+          <!-- Contoh placeholder; ganti dengan gambar aktual -->
+          <img src="pic/kti/image1.jpg" alt="Image 1">
+          <img src="pic/kti/image2.jpg" alt="Image 2">
+          <img src="pic/kti/image3.jpg" alt="Image 3">
+          <img src="pic/kti/image4.jpg" alt="Image 4">
+          <img src="pic/kti/image5.jpg" alt="Image 5">
+          <!-- Tambahkan lebih banyak <img> sesuai gambar di folder -->
+        </div>
+        <button class="gallery-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+        <button class="gallery-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+        <div class="gallery-indicators">
+          <!-- Indikator titik akan dibuat secara dinamis oleh JS -->
+        </div>
+      </div>
+    </section>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <button onclick="window.location.href='index.html'" class="view-btn"><i class="fas fa-home"></i></button>
+    </div>
+  </main>
+
+  <!-- Modal untuk tampilan gambar penuh -->
+  <div id="image-modal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modal-image" alt="Full Image">
+  </div>
+
+  <footer class="contact-footer">
+    <h2>Contact</h2>
+    <p>Email: azzamtsabit@gmail.com | Phone: +62 878 9735 6155 | LinkedIn: linkedin.com/in/muhammad-azzam-astsabit</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

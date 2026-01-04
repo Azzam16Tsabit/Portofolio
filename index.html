@@ -11,6 +11,7 @@
   <header>
     <h1>Muhammad Azzam As Tsabit</h1>
     <p>Programmer | Engineer | Designer</p>
+    <p>Email: azzamtsabit@gmail.com | Phone: +62 878 9735 6155 | LinkedIn: linkedin.com/in/muhammad-azzam-astsabit</p>
     <button id="theme-toggle"><i class="fas fa-moon"></i></button>
   </header>
 
@@ -120,34 +121,100 @@
 
       <section id="languages" class="section">
         <h2>Languages</h2>
-        <ul>
-          <li>Indonesian: Native or Bilingual</li>
-          <li>English: Professional Working</li>
-          <li>Japanese: Elementary</li>
-          <li>Korean: Elementary</li>
-        </ul>
+        <div class="language-item">
+          <span class="language-name">Indonesian: Native or Bilingual</span>
+          <div class="language-bar">
+            <span class="bar-level filled"></span>
+            <span class="bar-level filled"></span>
+            <span class="bar-level filled"></span>
+            <span class="bar-level filled"></span>
+            <span class="bar-level filled"></span>
+          </div>
+        </div>
+        <div class="language-item">
+          <span class="language-name">English: Professional Working</span>
+          <div class="language-bar">
+            <span class="bar-level filled"></span>
+            <span class="bar-level filled"></span>
+            <span class="bar-level filled"></span>
+            <span class="bar-level"></span>
+            <span class="bar-level"></span>
+          </div>
+        </div>
+        <div class="language-item">
+          <span class="language-name">Japanese: Elementary</span>
+          <div class="language-bar">
+            <span class="bar-level filled"></span>
+            <span class="bar-level"></span>
+            <span class="bar-level"></span>
+            <span class="bar-level"></span>
+            <span class="bar-level"></span>
+          </div>
+        </div>
+        <div class="language-item">
+          <span class="language-name">Korean: Elementary</span>
+          <div class="language-bar">
+            <span class="bar-level filled"></span>
+            <span class="bar-level"></span>
+            <span class="bar-level"></span>
+            <span class="bar-level"></span>
+            <span class="bar-level"></span>
+          </div>
+        </div>
       </section>
 
       <!-- Projects tanpa panel, tapi project cards tetap ada -->
       <div class="projects">
         <h2>Projects</h2>
         <div class="project-card" id="scada-project">
-          <h3>SCADA Simulation</h3>
-          <p>Node-RED based monitoring system with Modbus and PLTS simulation.</p>
-          <button class="view-btn" data-project="scada">View</button>
+          <h3>Barrier Gate</h3>
+          <p>Java-based application for barrier gate at ports.</p>
+          <button class="view-btn" data-project="barrier-gate">View</button>
         </div>
         <div class="project-card" id="remote-project">
-          <h3>Remote Monitoring</h3>
-          <p>UPS & power system monitoring with alert automation.</p>
-          <button class="view-btn" data-project="remote">View</button>
+          <h3>Solar powered IoT Hydroponic</h3>
+          <p>IoT-based hydroponic system that integrated with solar PV system.</p>
+          <button class="view-btn" data-project="iot-hydroponic">View</button>
+        </div>
+      </div>
+
+      <div class="projects">
+        <h2>Others</h2>
+        <div class="project-card" id="scada-project">
+          <h3>Tahfizh Leadership</h3>
+          <p>Intensive incubation program that train leadership and public speaking skill beside emorizing the Qur'an.</p>
+          <button class="view-btn" data-project="tahfizh-leadership">View</button>
+        </div>
+        <div class="project-card" id="remote-project">
+          <h3>Scientific Writing Competition</h3>
+          <p>Competition to conduct research, write scientific papers, and present them to assessors.</p>
+          <button class="view-btn" data-project="kti">View</button>
         </div>
       </div>
   </main>
 
-  <!-- Contact di footer tanpa panel -->
-  <footer id="contact" class="contact-footer">
-    <h2>Contact</h2>
-    <p>Email: azzamtsabit@gmail.com | Phone: +62 878 9735 6155 | LinkedIn: linkedin.com/in/muhammad-azzam-astsabit</p>
+  <!-- Ikon Kirim Pesan Sticky -->
+  <div id="message-icon" class="message-icon">
+    <i class="fas fa-envelope"></i>
+  </div>
+
+  <!-- Popup Ikon Sosial -->
+  <div id="social-popup" class="social-popup">
+    <a href="https://wa.me/6287897356155" target="_blank" class="social-link">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/muhammad-azzam-astsabit/" target="_blank" class="social-link">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/azm.tsbit_16/" target="_blank" class="social-link"> <!-- Ganti dengan link Instagram asli jika ada -->
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+
+  <footer class="copyright-footer">
+    <p>©2026 Muhammad Azzam As Tsabit</p>
   </footer>
 
   <script src="script.js"></script>
